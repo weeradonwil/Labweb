@@ -1,0 +1,123 @@
+/* ตั้งค่าพื้นฐานของเว็บ */
+body {
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    margin: 0;
+    /*กรอบนอก*/
+    padding: 0;
+    /*กรอบ*/
+    background-image: url(https://i.pinimg.com/originals/50/0b/60/500b6013c3b623a6bec774a47051f0ba.gif);
+
+}
+
+/* ตั้งค่ากรอบ */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgb(243, 242, 235);
+    border-radius: 3rem;
+    box-shadow: 0 10px 10px 20px rgba(6, 236, 217, 0.08);
+    padding: 30px;
+
+}
+
+/* ตั้งค่าในกรอบ header */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    margin: 20px 0 5px;
+    font-size: 2rem;
+}
+
+.header h2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgba(156, 3, 3, 0.959);
+}
+
+h3 {
+    color: green;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 4px solid rgb(219, 119, 26);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+/* skills */
+#skills {
+    color: rgb(9, 153, 52);
+}
+
+.icon-skills {
+    font-size: 30px;
+
+}
+
+
+/* Profile */
+.profile-image {
+    width: 300px;
+    height: 100%;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    /* border: 2px solid rgba(0, 0, 0, 0.664); */
+}
+
+/* row */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.column {
+    flex: 1;
+    min-width: 250px;
+}
+
+.info-item {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.lable {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+/* ไอคอนลิงค์ */
+.icon {
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/* ข้อความทั่วไป */
+.about-p {
+    font-size: 18px;
+}
+
+/* footer */
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+}

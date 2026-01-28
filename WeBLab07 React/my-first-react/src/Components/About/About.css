@@ -1,0 +1,11 @@
+.about-section, .projects-section {
+  width: 100%;
+  min-height: 50vh;
+  padding: 80px 10%;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.projects-section {
+  background: #fff;
+}

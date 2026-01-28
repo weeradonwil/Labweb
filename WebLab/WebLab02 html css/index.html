@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- ตั้งค่าให้รับรองภาษาไทย -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติส่วนตัว</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ฟอนต์ภาษาไทย -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<!-- <style>
+    h3 {
+        color: red;
+
+    }
+</style> -->
+
+<body>
+
+    <div class="container">
+
+        <!-- Header Tailwind -->
+        <div class="header flex flex-col items-center" >
+            <img class="w-64 h-auto" src="assets/image/5.png" alt="">
+            <h1>วีรดนย์ วิลัยมาตย์</h1>
+            <h2>ปัจจุบันเป็นนักศึกษานักล่าปริญญา</h2>
+        </div>
+
+        <!-- Row -->
+        <div class="row">
+
+            <!-- column1 -->
+            <div class="column" id="column1">
+                <h3 style="text-decoration: underline;">ข้อมูลส่วนตัว</h3>
+                <p class="info-item"><span class="lable">ชื่อจริง :</span> วีรดนย์ วิลัยมาตย์</p>
+                <p class="info-item"><span class="lable">ชื่อเล่น :</span> โกโก้</p>
+                <p class="info-item"><span class="lable">อายุ :</span> 20 ปี</p>
+
+                <h3>ข้อมูลการติดต่อ</h3>
+                <p class="info-item"><span class="lable">Email :</span> weeradonwil1005@gmail.com</p>
+                <p class="info-item"><span class="lable">Line :</span> @Jingq</p>
+                <p class="info-item"><span class="lable">Phone :</span> 082-008-5356</p>
+            </div>
+
+            <!-- column2 -->
+            <div class="column" id="column2">
+                <h3>ประวัติการศึกษา</h3>
+                <ul>
+                    <li>ปวช : เทคนิคมีนบุรี สาขาคอมพิวเตอร์ธุรกิจ</li>
+                    <li>มัธยม : นวมินทราชินูทิศ สตรีวิทยา2</li>
+                    <li>ประถม : โรงเรียนวัดศรีสุก</li>
+                </ul>
+
+                <h3>ทักษะพิเศษ</h3>
+                <ul>
+                    <li>ถักไหมพรม</li>
+                    <li>ย้อมสีแมว</li>
+                    <li>ทำอาหารภาคอีสาน</li>
+                </ul>
+
+                <!-- Skills -->
+                <h3 id="skills">Program Skills</h3>
+                <div class="icon-skills">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-docker"></i>
+                    <i class="fa-brands fa-algolia"></i>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <i class="fa-brands fa-bluesky"></i>
+                    <i class="fa-brands fa-cc-jcb"></i>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- About me -->
+        <div class="about">
+            <h3>About Me</h3>
+        </div>
+        <p class="about-p">ผมเป็นนักศึกษาปริญญาตรี ปี 2 สาขา เลี้ยงแมลงปอ เคยร่วมการทดลองกับไอสไตน์
+            <br>โดยเอาทุเรียนปาหัวไอสไตน์ว่าจะมีแรงโน้มถ่วงเกิดขึ้นหรือไม่
+        </p>
+       
+        <!-- การ์ตูน Tailwind -->
+        <div class="grid gap-4 md:grid-cols-2 mt-2">
+            <div class="mt-4 bg-white border rounded-xl p-4"><img src="https://f.ptcdn.info/112/086/000/m3f82ubui2GxMxhf8Q6-o.jpg" alt=""></div>
+            <div class="mt-4 bg-white border rounded-xl p-4"><img src="https://img.online-station.net/_content/2019/0320/gallery/1553074086.jpg" alt=""></div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            &copy 2025 วีรดนย์ วิลัยมาตย์ | Personal Profile Page
+        </div>
+        <div class="icon">
+
+            <a target="_blank" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a target="_blank" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="https://www.line.me/th/"><i class="fa-brands fa-line"></i></a>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

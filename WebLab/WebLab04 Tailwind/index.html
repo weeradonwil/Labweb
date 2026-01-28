@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="p-6">
+
+    <!-- text bold -->
+    <h1 class="text-2x1 font-bold">เรียนรู้ Tallwind css</h1>
+
+    <!-- text-blue-600 semibold -->
+    <p class="text-blue-600 font-semibold">ข้อความธรรมดาสีน้ำเงิน</p>
+
+    <!-- px = padding แนวแกน x ซึ่งเป็นแนวนอนซ้ายขวา -->
+    <!-- py = padding แนวแกน y ซึ่งเป็นแนวตั้งหรือบนล่าง -->
+    <button class="px-4 py-2 rounded-lg bg-blue-500 text-white"><a href="https://www.facebook.com/"
+            target="_blank">facebook</a></button>
+
+    <div class="bg-gray-100 p-4 my-2">
+        <div class="bg-white border border-gray-300 p-4 my-2">
+            Box Demo
+        </div>
+    </div>
+
+    <div class="max-w-sm bg-whte border border-gray-200 rounded-2xl p-5 shadow-sm">
+        <h3 class="text-lg font-semibold">ชื่อ card</h3>
+        <p class="mt-2 text-gray-600">นี่คือคำอธิบายของ card</p>
+    </div>
+
+    <!-- flex = เปลี่ยน container ไปเป็น flex box -->
+    <!-- gap-3 = ระยะห่างระหว่างลูกแต่ละตัว -->
+    <div class="flex gap-3 mt-4">
+        <div class="bg-gray-200 p-3 rounded">1</div>
+        <div class="bg-gray-200 p-3 rounded">2</div>
+        <div class="bg-gray-200 p-3 rounded">3</div>
+    </div>
+
+    <div class="flex items-center justify-center h-32 bg-gray-100 rounded-xl mt-4">
+        <div class="bg-white p-4 rounded-lg border">center</div>
+    </div>
+
+    <!-- navbar -->
+    <div class="flex items-center justify-between border p-4 rounded-xl">
+        <div class="font-bold">Logo</div>
+        <div class="flex gap-4 text-sm">
+            <a class="hover:underline" href="">Home</a>
+            <a class="hover:underline" href="">About</a>
+        </div>
+    </div>
+
+    <!-- hover:สี -->
+    <button class="mt-2 px-4 py-2 rounded-lg bg-blue-600 text-white hover:bg-red-700"><a href="https://www.facebook.com/"
+            target="_blank">hover me</a></button>
+            
+    <!-- กล่อง input-focux -->
+        <input class="w-full mt-3 px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blute-500" 
+        placeholder="พิมพ์ตรงนี้">
+
+    <!-- grid = เปลี่ยน container ให้เป็น css grid -->
+     <!--gap-4 = ระยะห่างระหว่างช่อง -->
+     <!--md:grid-cols-2 = ขนาดหน้าจอขนาดกลาง กำหนดให้แสดง 2 คอลัมน์
+     ขนาดหน้าจออุปกรณ์ขนาดเล็ก sm เช่น โทรศัพท์มือถือ > 1 คอลัมน์
+     ขนาดหน้าจออุปกรณ์ขนาดกลาง md  เช่น แท็ปเล็ต > 2 คอลัมน์ (cols-2) -->
+    <div class="grid gap-4 md:grid-cols-2 mt-2">
+        <div class="bg-white border rounded-xl p-4">ซ้าย</div>
+        <div class="bg-white border rounded-xl p-4">ขวา</div>
+    </div>
+    
+
+</body>
+
+</html>
