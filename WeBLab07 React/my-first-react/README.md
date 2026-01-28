@@ -11,3 +11,5 @@ terminal :
 > git branch -M main
 > git remote add origin https://github.com/weeradonwil/Labweb.git
 > GIT PUSH -u origin main
+
+install Git > Node.js > npm --verison
